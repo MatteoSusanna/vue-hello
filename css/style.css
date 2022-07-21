@@ -1,0 +1,14 @@
+body{
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: #0f0e17;
+    color: #ff8906;
+}
+
+
+#app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
