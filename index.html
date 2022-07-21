@@ -12,7 +12,8 @@
         
 
         <div id="app">
-           <h1 v-model="message">{{message}}</h1>
+           <h1 v-model="message" v-bind:class="myClass">{{message}}</h1>
+           <button @click="color">CAMBIA COLORE SCRITTA</button>
            <img v-bind:src="linkImg" alt="immagine vue js">
         </div>
 
